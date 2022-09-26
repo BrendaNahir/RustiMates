@@ -1,0 +1,93 @@
+CRITICAL - 2022-05-30 19:18:09 --> Call to undefined function form_multipart()
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/agrega...', Array, true)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(56): view('producto/agrega...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->f_agregar_producto()
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 19:23:27 --> Call to undefined function form_multipart()
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/agrega...', Array, true)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(56): view('producto/agrega...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->f_agregar_producto()
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 19:24:39 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\agregar.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/agrega...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(56): view('producto/agrega...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->f_agregar_producto()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 19:35:03 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\agregar.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/agrega...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(16): view('producto/agrega...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->f_agregar()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 19:37:43 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\agregar.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/agrega...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(16): view('producto/agrega...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->f_agregar()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 19:44:52 --> Class 'App\Models\CategoriaModel' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->f_agregar()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 19:48:02 --> Class 'App\Models\CategoriaModel' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->f_agregar()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 19:50:41 --> Class 'App\Models\CategoriaModel' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->f_agregar()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 19:55:03 --> Class 'App\Models\BaseController' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cate...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cate...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(13): spl_autoload_call('App\\Models\\Cate...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->f_agregar()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 19:56:20 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\agregar.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/agrega...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(58): view('producto/agrega...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->f_agregar_producto()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

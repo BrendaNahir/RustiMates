@@ -1,0 +1,58 @@
+public function actualizar_producto($id=null)
+  {
+    $request=\Config\Services::request();
+    $session = session();
+     $producto=new ProductoModel();
+    $data['producto'] = $producto->where('id_producto',$id)->first();
+
+ if ($request->getMethod(true)){
+   $rules=[
+          'nombre_p' =>'required|alpha_space|is_unique[producto.nombre_p]',
+          'descripcion'=> 'required',
+          'precio'=> 'required|decimal',
+          'stock'=> 'required|is_natural_no_zero',
+          'categoria'=> 'required|is_not_unique[producto_categoria.id_categoria]',
+          //'imagen'=> 'is_image[imagen]|uploaded[imagen]',
+          ];
+    $validations=$this->validate($rules);
+            if ($validations){
+       $id = $request->getPost('id');
+       $data = [
+      'nombre_p'=>$request->getPost('nombre_p'),
+      'descripcion'=>$request->getPost('descripcion'),
+      'precio'=>$request->getPost('precio'),
+      'stock'=>$request->getPost('stock'),
+      'categoria_id'=> $request->getPost('categoria'),
+      'estado_p'=> 1,
+              ];
+
+      $img = $this->request->getFile('imagen');
+      $rules = [
+            'imagen' => 'uploaded[imagen]|ext_in[imagen,png,jpg,gif]',
+          ];
+
+          $validations=$this->validate($rules);
+      if ($img->isValid()){
+          $nombre_aleatorio = $img->getRandomName();
+          $img->move(ROOTPATH.'public/img', $nombre_aleatorio);
+          $data = [
+            'imagen' => $img->getName(),
+          ];
+      }
+
+      $producto->update($id,$data);
+      //Mensaje el producto se actualizo correctamente
+      $session = session();
+      $session->setFlashdata('mensaje','¡El producto se actualizó correctamente!');
+      return redirect()->route('listar_producto');
+  } else {
+     $categoria = new CategoriaModel();
+            $data['categorias'] = $categoria->findAll();
+    $data['validation'] = $this->validator;
+    $data['titulo'] = 'Edición producto';
+    echo view('plantilla/header',$data);
+      echo view('plantilla/nav_admin');
+      echo view('producto/editar_producto_view');
+    } 
+  }
+}

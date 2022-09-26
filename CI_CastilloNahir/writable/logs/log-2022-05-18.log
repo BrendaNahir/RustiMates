@@ -1,0 +1,96 @@
+CRITICAL - 2022-05-18 15:33:16 --> Undefined variable: titulo
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\plantilla\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('plantilla/heade...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(87): view('plantilla/heade...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->f_bombillas()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-18 19:52:57 --> Class 'App\Controllers\consulta_model' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_registrar_consulta()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-18 19:57:29 --> Class 'App\Controllers\consulta_model' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_registrar_consulta()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-18 20:00:10 --> No database selected
+CRITICAL - 2022-05-18 20:00:10 --> No database selected
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ConsultaController.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_registrar_consulta()
+#9 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#10 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-18 20:01:37 --> Invalid file: mensajes/msj_contacto.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mensajes/msj_co...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('mensajes/msj_co...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ConsultaController.php(44): view('mensajes/msj_co...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_registrar_consulta()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-18 20:06:26 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-05-18 20:06:26 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ConsultaController.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_registrar_consulta()
+#9 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#10 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-18 20:07:14 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-05-18 20:07:14 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ConsultaController.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_registrar_consulta()
+#9 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#10 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-18 20:08:26 --> Invalid file: mensajes/msj_contacto.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mensajes/msj_co...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('mensajes/msj_co...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ConsultaController.php(44): view('mensajes/msj_co...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_registrar_consulta()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-18 22:47:28 --> syntax error, unexpected ''email'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

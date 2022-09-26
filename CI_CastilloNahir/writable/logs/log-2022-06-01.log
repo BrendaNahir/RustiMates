@@ -1,0 +1,306 @@
+CRITICAL - 2022-06-01 16:40:57 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 18:00:21 --> Undefined variable: ProductoModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 18:10:42 --> syntax error, unexpected '/'
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 18:11:37 --> syntax error, unexpected '/'
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 18:12:50 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 18:13:13 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 18:13:29 --> Undefined variable: ProductoModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 94, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 18:14:30 --> Undefined variable: ProductoModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 18:15:21 --> Undefined variable: ProductoModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 18:15:23 --> Undefined variable: ProductoModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 18:17:45 --> Undefined variable: producto
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\listar_producto_view.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/listar...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(97): view('producto/listar...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 18:18:24 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/listar...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(97): view('producto/listar...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 18:19:42 --> Undefined variable: producto
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\listar_producto_view.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/listar...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(97): view('producto/listar...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 18:19:54 --> Undefined variable: ProductoModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 18:26:50 --> Undefined variable: ProductoModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 18:26:54 --> Undefined variable: ProductoModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 18:27:32 --> Undefined variable: ProductoModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 18:29:03 --> Undefined variable: ProductoModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 18:34:08 --> Undefined variable: ProductoModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 18:39:34 --> Undefined variable: ProductoModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 18:40:03 --> Undefined variable: ProductoModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 18:41:15 --> Undefined variable: ProductoModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 21:54:57 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->editar_producto('3')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 21:55:23 --> Undefined variable: ProductoModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->editar_producto('3')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 21:55:39 --> Undefined variable: ProductoModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->editar_producto('3')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 21:56:01 --> Invalid file: producto/editar_producto_view.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('producto/editar...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/editar...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(108): view('producto/editar...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->editar_producto('3')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 22:17:19 --> Call to undefined method App\Models\ProductoModel::getProductoAll
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(96): CodeIgniter\Model->__call('getProductoAll', Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->gestionar_producto()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 22:25:06 --> Undefined variable: producto
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->eliminar_producto('3')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 22:27:52 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(134): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->eliminar_producto('3')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 22:29:05 --> Undefined variable: producto
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->activar_producto('3')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 22:30:59 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(124): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->activar_producto('3')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 22:35:18 --> Call to undefined function validation_errors()
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/editar...', Array, true)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(101): view('producto/editar...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->editar_producto('3')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 22:35:43 --> Call to undefined function validation_errors()
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/editar...', Array, true)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(101): view('producto/editar...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->editar_producto('3')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 22:35:49 --> Call to undefined function validation_errors()
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/editar...', Array, true)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(101): view('producto/editar...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->editar_producto('3')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 22:36:19 --> Undefined variable: nombre
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\editar_producto_view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/editar...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(101): view('producto/editar...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->editar_producto('3')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 22:36:38 --> Undefined variable: nombre_p
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\editar_producto_view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/editar...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(101): view('producto/editar...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->editar_producto('3')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 22:36:58 --> Undefined variable: nombre_p
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\editar_producto_view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/editar...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(101): view('producto/editar...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->editar_producto('3')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

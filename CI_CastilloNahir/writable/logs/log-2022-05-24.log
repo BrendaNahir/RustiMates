@@ -1,0 +1,132 @@
+CRITICAL - 2022-05-24 07:28:01 --> Undefined variable: user_Model
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ClienteController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ClienteController->login_usuario()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 07:41:18 --> Undefined variable: ClienteModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ClienteController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ClienteController->login_usuario()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 07:43:09 --> Undefined variable: ClienteModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ClienteController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ClienteController->login_usuario()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 07:49:16 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-24 07:49:38 --> Undefined variable: ClienteModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ClienteController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ClienteController->login_usuario()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 07:52:16 --> Undefined variable: ClienteModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ClienteController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ClienteController->login_usuario()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 08:00:43 --> Undefined variable: ClienteModel
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ClienteController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ClienteController->login_usuario()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 08:09:15 --> Call to undefined method CodeIgniter\Session\Session::setFlasdata()
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ClienteController->login_usuario()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-24 08:11:54 --> Call to undefined method CodeIgniter\Session\Session::setFlasdata()
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ClienteController->login_usuario()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-24 08:19:06 --> Undefined property: App\Controllers\ClienteController::$session
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ClienteController.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ClienteController->login_usuario()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 08:21:27 --> Call to undefined method CodeIgniter\Session\Session::setFlasdata()
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ClienteController->login_usuario()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-24 08:28:14 --> Call to undefined method CodeIgniter\Session\Session::setFlasdata()
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ClienteController->login_usuario()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-24 08:48:55 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-24 08:49:43 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-24 08:50:00 --> Invalid file: contenido/admin_views.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contenido/admin...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('contenido/admin...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\AdminController.php(10): view('contenido/admin...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\AdminController->admin()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-24 09:44:48 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-24 09:50:14 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

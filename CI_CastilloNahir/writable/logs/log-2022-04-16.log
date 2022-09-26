@@ -1,0 +1,36 @@
+CRITICAL - 2022-04-16 15:15:33 --> Invalid file: contenido/registrarse_view.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contenido/regis...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('contenido/regis...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(57): view('contenido/regis...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->reg()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-16 15:15:45 --> Invalid file: contenido/registrarse_view.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contenido/regis...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('contenido/regis...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(57): view('contenido/regis...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->reg()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-16 15:15:47 --> Invalid file: contenido/registrarse_view.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contenido/regis...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('contenido/regis...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(57): view('contenido/regis...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->reg()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-16 15:15:51 --> Invalid file: contenido/registrarse_view.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contenido/regis...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('contenido/regis...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(57): view('contenido/regis...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->reg()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

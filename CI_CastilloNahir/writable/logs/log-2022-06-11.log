@@ -1,0 +1,280 @@
+CRITICAL - 2022-06-11 16:51:36 --> Invalid file: plantilla/nav_admi.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/nav_a...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('plantilla/nav_a...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(93): view('plantilla/nav_a...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->f_listar_productos_admi()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 16:56:00 --> Invalid file: plantilla/nav_admi.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/nav_a...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('plantilla/nav_a...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(93): view('plantilla/nav_a...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->f_listar_productos_admi()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 16:58:09 --> Invalid file: plantilla/nav_admi.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/nav_a...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('plantilla/nav_a...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(93): view('plantilla/nav_a...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->f_listar_productos_admi()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 16:58:31 --> Invalid file: plantilla/nav_admi.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/nav_a...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('plantilla/nav_a...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(93): view('plantilla/nav_a...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->f_listar_productos_admi()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 16:59:26 --> Invalid file: plantilla/nav_admi.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/nav_a...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('plantilla/nav_a...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(93): view('plantilla/nav_a...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->f_listar_productos_admi()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 17:00:08 --> Invalid file: plantilla/nav_admi.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/nav_a...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('plantilla/nav_a...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(93): view('plantilla/nav_a...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->f_listar_productos_admi()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 17:00:17 --> Invalid file: plantilla/nav_admi.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/nav_a...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('plantilla/nav_a...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(93): view('plantilla/nav_a...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->f_listar_productos_admi()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 17:06:17 --> Invalid file: plantilla/nav_admi.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/nav_a...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('plantilla/nav_a...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(93): view('plantilla/nav_a...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->f_listar_productos_admi()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 17:06:28 --> Invalid file: plantilla/nav_admi.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/nav_a...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('plantilla/nav_a...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(93): view('plantilla/nav_a...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->f_listar_productos_admi()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 17:06:53 --> Undefined index: descripcion_categoria
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\listar_productos_admi.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/listar...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(94): view('producto/listar...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->f_listar_productos_admi()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 17:07:58 --> Undefined index: descripcion_p
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\listar_productos_admi.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/listar...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(94): view('producto/listar...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->f_listar_productos_admi()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 17:09:36 --> Undefined index: descripcion_categoria
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\listar_productos_admi.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/listar...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(94): view('producto/listar...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->f_listar_productos_admi()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 17:20:31 --> Invalid file: contenido/f_listado_consultas.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contenido/f_lis...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('contenido/f_lis...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ConsultaController.php(74): view('contenido/f_lis...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_listado_consultas()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 17:21:04 --> Undefined variable: producto
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\contenido\listado_consultas.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('contenido/lista...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ConsultaController.php(74): view('contenido/lista...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_listado_consultas()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 17:55:00 --> Invalid file: contenido/listado_consulta.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contenido/lista...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('contenido/lista...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ConsultaController.php(73): view('contenido/lista...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_listar_consulta()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 17:55:05 --> Invalid file: contenido/listado_consulta.php
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contenido/lista...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('contenido/lista...', Array, true)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ConsultaController.php(73): view('contenido/lista...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_listar_consulta()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 17:55:42 --> There is no data to update.
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ConsultaController.php(81): CodeIgniter\Model->update('1', Array)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_consulta_leida('1')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 17:57:36 --> There is no data to update.
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ConsultaController.php(81): CodeIgniter\Model->update('1', Array)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_consulta_leida('1')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 17:59:00 --> There is no data to update.
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ConsultaController.php(81): CodeIgniter\Model->update('5', Array)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_consulta_leida('5')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 18:00:27 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ConsultaController.php(82): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_consulta_leida('5')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-11 18:00:33 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ConsultaController.php(82): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_consulta_leida('6')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-11 18:04:33 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ConsultaController.php(83): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_consulta_leida('7')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-11 18:04:43 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ConsultaController.php(83): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ConsultaController->f_consulta_leida('4')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConsultaController))
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-11 19:28:47 --> Undefined property: App\Controllers\PedidoController::$cart
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\PedidoController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\PedidoController->realizar_pedido()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-11 19:32:53 --> Undefined property: App\Controllers\PedidoController::$cart
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\PedidoController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\PedidoController->realizar_pedido()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-11 19:33:26 --> Undefined property: CodeIgniter\Router\Router::$load
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\PedidoController.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Router\Router.php(518): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('PedidoControlle...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('PedidoControlle...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 19:38:16 --> Undefined property: CodeIgniter\Router\Router::$load
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\PedidoController.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Router\Router.php(518): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('PedidoControlle...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('PedidoControlle...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 19:38:51 --> Undefined property: App\Controllers\PedidoController::$cart
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\PedidoController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\PedidoController->realizar_pedido()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-11 19:41:39 --> Undefined variable: carrito
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\PedidoController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\PedidoController->realizar_pedido()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-11 19:42:25 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 19:43:10 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 19:43:14 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 19:43:43 --> Undefined variable: cart
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\PedidoController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\PedidoController->realizar_pedido()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-11 19:45:07 --> Undefined property: App\Controllers\PedidoController::$cart
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\PedidoController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\PedidoController->realizar_pedido()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PedidoController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

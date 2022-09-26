@@ -1,0 +1,7 @@
+Cliente
+*email: eze@gmail.com
+*contraseña: 123456789
+
+Administrador
+*email: nahir@gmail.com
+*contraseña: 123456789

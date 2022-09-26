@@ -1,0 +1,590 @@
+CRITICAL - 2022-06-19 00:00:16 --> Undefined variable: detalle_venta
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\venta\venta_detalle.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('venta/venta_det...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\VentaController.php(81): view('venta/venta_det...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\VentaController->f_venta_detalle('81')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 00:00:21 --> Undefined variable: detalle_venta
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\venta\venta_detalle.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('venta/venta_det...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\VentaController.php(81): view('venta/venta_det...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\VentaController->f_venta_detalle('81')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-19 00:32:48 --> Unknown column 'nombre' in 'where clause'
+CRITICAL - 2022-06-19 00:32:48 --> Unknown column 'nombre' in 'where clause'
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('la cachiii', 'nombre', Array, NULL)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', 'la cachiii', Array, Array)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(38): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->f_agregar_producto()
+#10 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#11 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-19 01:22:22 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('VentaController...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('VentaController...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-19 02:04:39 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('VentaController...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('VentaController...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-19 02:06:16 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('VentaController...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('VentaController...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-19 02:16:29 --> Undefined variable: item
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\VentaController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\VentaController->realizar_pedidooo()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-19 02:49:33 --> syntax error, unexpected 'return' (T_RETURN)
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\fil...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\fil...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Filters\Filters.php(166): spl_autoload_call('App\\Filters\\fil...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-19 02:50:00 --> Call to undefined method CodeIgniter\Session\Session::serFlashData()
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Filters\Filters.php(173): App\Filters\filtro->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-19 03:22:30 --> Illegal string offset 'stock'
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\VentaController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\VentaController->realizar_pedidooo()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-19 03:23:23 --> Cannot use object of type App\Models\ProductoModel as array
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\VentaController->realizar_pedidooo()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-19 03:26:43 --> Undefined index: stock
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\VentaController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\VentaController->realizar_pedidooo()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-19 03:27:07 --> Undefined index: stock
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\VentaController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\VentaController->realizar_pedidooo()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-19 03:32:57 --> There is no data to update.
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\VentaController.php(107): CodeIgniter\Model->update('5', Array)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\VentaController->realizar_pedidooo()
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-19 03:51:17 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 03:56:22 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\fil...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\fil...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Filters\Filters.php(166): spl_autoload_call('App\\Filters\\fil...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-19 03:56:29 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\fil...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\fil...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Filters\Filters.php(166): spl_autoload_call('App\\Filters\\fil...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('listar_ventas', 'before')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-19 04:02:15 --> syntax error, unexpected 'return' (T_RETURN)
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\fil...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\fil...')
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Filters\Filters.php(166): spl_autoload_call('App\\Filters\\fil...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-19 04:50:51 --> Undefined variable: venta
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\venta\venta_detalle.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('venta/venta_det...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\VentaController.php(148): view('venta/venta_det...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\VentaController->f_venta_detalle('80')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 05:02:23 --> Undefined variable: item
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\venta\venta_detalle.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('venta/venta_det...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\VentaController.php(148): view('venta/venta_det...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\VentaController->f_venta_detalle('101')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 05:04:09 --> Undefined variable: item
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\venta\venta_detalle.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('venta/venta_det...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\VentaController.php(148): view('venta/venta_det...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\VentaController->f_venta_detalle('101')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 09:39:00 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xampp\htdocs\CI_CastilloBrenda\system\Model.php on line 728
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('id_producto')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\VentaController.php(50): CodeIgniter\Model->__call('get', Array)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\VentaController->realizar_pedido()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-19 09:39:52 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('VentaController...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('VentaController...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-19 09:40:09 --> Cannot use object of type App\Models\ProductoModel as array
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\VentaController->realizar_pedido()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-19 09:41:44 --> Undefined index: nombre_p
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\VentaController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\VentaController->realizar_pedido()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-19 10:49:08 --> Class 'App\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 10:51:02 --> Class 'App\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 10:51:44 --> Class 'App\Filters\auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 10:53:06 --> Class 'App\Filters\auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 10:53:28 --> Class 'App\Filters\auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 10:53:36 --> Class 'App\Filters\auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 10:55:14 --> syntax error, unexpected '.', expecting ';' or ','
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 [internal function]: spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Factories.php(136): class_exists('Config\\Filters')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Services.php(258): config('Filters')
+#8 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters(NULL, false)
+#9 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#10 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#11 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters()
+#12 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(373): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#13 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-06-19 10:55:22 --> syntax error, unexpected '.', expecting ';' or ','
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 [internal function]: spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Factories.php(136): class_exists('Config\\Filters')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Services.php(258): config('Filters')
+#8 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters(NULL, false)
+#9 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#10 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#11 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters()
+#12 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(373): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#13 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-06-19 10:55:23 --> syntax error, unexpected '.', expecting ';' or ','
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 [internal function]: spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Factories.php(136): class_exists('Config\\Filters')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Services.php(258): config('Filters')
+#8 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters(NULL, false)
+#9 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#10 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#11 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters()
+#12 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(373): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#13 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-06-19 10:55:25 --> syntax error, unexpected '.', expecting ';' or ','
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 [internal function]: spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Factories.php(136): class_exists('Config\\Filters')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Services.php(258): config('Filters')
+#8 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters(NULL, false)
+#9 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#10 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#11 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters()
+#12 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(373): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#13 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-06-19 10:55:49 --> Class 'App\Filters\auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 10:56:20 --> Class 'App\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 10:56:45 --> Class 'App\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 11:09:11 --> Class 'App\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 11:09:30 --> Class 'App\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 11:39:08 --> Class 'App\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 11:39:36 --> Class 'App\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 11:41:24 --> Class 'App\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 11:42:41 --> Class 'App\Filters\auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 11:43:06 --> Class 'App\Filters\auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 11:43:37 --> Class 'App\Filters\auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 11:47:45 --> Cannot use CodeIgniter\Filters\SecureHeaders as SecureHeaders because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-19 11:47:48 --> Cannot use CodeIgniter\Filters\SecureHeaders as SecureHeaders because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-19 11:47:49 --> Cannot use CodeIgniter\Filters\SecureHeaders as SecureHeaders because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-19 11:48:24 --> Class 'CodeIgniter\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 11:52:48 --> Class 'App\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 11:56:37 --> Class 'App\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 11:57:14 --> Class 'App\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 11:57:50 --> Class 'App\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 11:59:13 --> auth_adm filter must have a matching alias defined.
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth_adm')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth_adm', 'before')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-19 12:00:13 --> auth_adm filter must have a matching alias defined.
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth_adm')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth_adm', 'before')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-19 12:01:38 --> Class 'app\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 16:41:56 --> Class 'app\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('listar_ventas', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 16:41:56 --> Class 'app\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('listar_ventas', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 16:42:28 --> Class 'app\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('listar_ventas', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 16:42:49 --> Class 'app\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 16:42:54 --> Class 'app\Filters\Auth_adm' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('listar_ventas', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 16:42:59 --> admin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('admin')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('admin', 'before')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-19 20:06:42 --> Class 'Config\Admin_ses' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 20:25:28 --> Class 'Config\Admin_ses' not found
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 21:03:49 --> admin_ses filter must have a matching alias defined.
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('admin_ses')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('admin_ses', 'before')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-19 21:04:46 --> admin_ses filter must have a matching alias defined.
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('admin_ses')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('admin_ses', 'before')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-19 21:09:21 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 [internal function]: spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Factories.php(136): class_exists('Config\\Filters')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Services.php(258): config('Filters')
+#8 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters(NULL, false)
+#9 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#10 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#11 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters()
+#12 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(373): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#13 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-06-19 21:09:27 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 [internal function]: spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Factories.php(136): class_exists('Config\\Filters')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Services.php(258): config('Filters')
+#8 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters(NULL, false)
+#9 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#10 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#11 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters()
+#12 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(373): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#13 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-06-19 21:09:37 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 [internal function]: spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Factories.php(136): class_exists('Config\\Filters')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Services.php(258): config('Filters')
+#8 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters(NULL, false)
+#9 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#10 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#11 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters()
+#12 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(373): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#13 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-06-19 21:10:12 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 [internal function]: spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Factories.php(136): class_exists('Config\\Filters')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Services.php(258): config('Filters')
+#8 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters(NULL, false)
+#9 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#10 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#11 C:\xampp\htdocs\CI_CastilloBrenda\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters()
+#12 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(373): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#13 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-06-19 23:54:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\editar_producto_view.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/editar...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(162): view('producto/editar...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->actualizar_producto('8')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 23:55:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\editar_producto_view.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/editar...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(162): view('producto/editar...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->actualizar_producto('8')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 23:55:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\editar_producto_view.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/editar...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(162): view('producto/editar...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->actualizar_producto('3')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 23:56:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\editar_producto_view.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/editar...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(162): view('producto/editar...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->actualizar_producto()
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 23:58:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\CI_CastilloBrenda\app\Views\producto\editar_producto_view.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('producto/editar...', Array, true)
+#4 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\ProductoController.php(162): view('producto/editar...')
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\ProductoController->actualizar_producto('8')
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#7 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

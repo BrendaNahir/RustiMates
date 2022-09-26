@@ -1,0 +1,10 @@
+CRITICAL - 2022-04-15 13:31:22 --> Call to undefined function validation_errors()
+#0 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\CI_CastilloBrenda\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CI_CastilloBrenda\system\Common.php(1089): CodeIgniter\View\View->render('contenido/conta...', Array, true)
+#3 C:\xampp\htdocs\CI_CastilloBrenda\app\Controllers\Home.php(33): view('contenido/conta...')
+#4 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(832): App\Controllers\Home->cont()
+#5 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\CI_CastilloBrenda\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_CastilloBrenda\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
